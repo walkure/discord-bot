@@ -26,6 +26,13 @@ DiscordのUIはちょくちょく変わっているので、以下の説明通�
 
 API叩く部分は[slack-unfurler](https://github.com/walkure/slack-unfurler)を流用しています。
 
+## Execute locally with Docker
+
+```batch
+docker build -t discord-bot .
+docker run --rm --env-file .env discord-bot
+```
+
 ## License
 
 MIT
